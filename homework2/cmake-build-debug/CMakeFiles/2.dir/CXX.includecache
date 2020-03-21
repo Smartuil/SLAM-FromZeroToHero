@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/smartuil/SLAM-FromZeroToHero/homework2/2.cpp
+iostream
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Dense
+-
+iomanip
+-
+

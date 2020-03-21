@@ -1,0 +1,5 @@
+/home/smartuil/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/smartuil/SLAM-FromZeroToHero/homework1
+-- Found OpenCV: /usr/local (found version "4.2.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/smartuil/SLAM-FromZeroToHero/homework1/cmake-build-debug

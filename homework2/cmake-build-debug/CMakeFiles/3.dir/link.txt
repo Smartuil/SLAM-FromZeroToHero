@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/3.dir/3.cpp.o  -o 3 
