@@ -49,7 +49,7 @@ int main()
 	return 0;
 }
 ```
-![](../images/作业3_1.png)
+![](https://github.com/Smartuil/SLAM-FromZeroToHero/blob/master/images/%E4%BD%9C%E4%B8%9A3_1.png)
 ```C++
 #include <opencv2/opencv.hpp>
 #include <iostream>
