@@ -79,13 +79,11 @@ int main(int argc, char** argv)
     //normalEstimation.setRadiusSearch(0.03); //对于每一个点都用半径为3cm的近邻搜索方式
     normalEstimation.compute(*normals); //计算法线
     // 将点云位姿、颜色、法线信息连接到一起
-    pcl::PointCloud<pcl::PointNormal>::Ptr cloud_with_normals(new
-                                                                      pcl::PointCloud<pcl::PointNormal>);
+    pcl::PointCloud<pcl::PointNormal>::Ptr cloud_with_normals(new pcl::PointCloud<pcl::PointNormal>);
     pcl::concatenateFields(*cloud_smoothed, *normals, *cloud_with_normals);
     pcl::PolygonMesh mesh; //存储最终三角化的网络模型
     //定义搜索树对象
-    pcl::search::KdTree<pcl::PointNormal>::Ptr tree2(new
-                                                             pcl::search::KdTree<pcl::PointNormal>);
+    pcl::search::KdTree<pcl::PointNormal>::Ptr tree2(new pcl::search::KdTree<pcl::PointNormal>);
     tree2->setInputCloud(cloud_with_normals);
     // 贪心投影三角化
     pcl::GreedyProjectionTriangulation<pcl::PointNormal> gp3; // 定义三角化对象

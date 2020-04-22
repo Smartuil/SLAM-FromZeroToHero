@@ -1,0 +1,12 @@
+/home/smartuil/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/smartuil/SLAM-FromZeroToHero/code/homework18
+-- opencv found: /usr/local/include/opencv4
+-- opencv libs: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+-- G2O found: 
+-- G2O libs: /usr/local/lib/libg2o_cli.so;/usr/local/lib/libg2o_core.so;/usr/local/lib/libg2o_csparse_extension.so;/usr/local/lib/libg2o_ext_freeglut_minimal.so;/usr/local/lib/libg2o_hierarchical.so;/usr/local/lib/libg2o_incremental.so;/usr/local/lib/libg2o_interactive.so;/usr/local/lib/libg2o_interface.so;/usr/local/lib/libg2o_opengl_helper.so;/usr/local/lib/libg2o_parser.so;/usr/local/lib/libg2o_simulator.so;/usr/local/lib/libg2o_solver_cholmod.so;/usr/local/lib/libg2o_solver_csparse.so;/usr/local/lib/libg2o_solver_dense.so;/usr/local/lib/libg2o_solver_eigen.so;/usr/local/lib/libg2o_solver_pcg.so;/usr/local/lib/libg2o_solver_slam2d_linear.so;/usr/local/lib/libg2o_solver_structure_only.so;/usr/local/lib/libg2o_stuff.so;/usr/local/lib/libg2o_types_data.so;/usr/local/lib/libg2o_types_icp.so;/usr/local/lib/libg2o_types_sba.so;/usr/local/lib/libg2o_types_sclam2d.so;/usr/local/lib/libg2o_types_sim3.so;/usr/local/lib/libg2o_types_slam2d.so;/usr/local/lib/libg2o_types_slam2d_addons.so;/usr/local/lib/libg2o_types_slam3d.so;/usr/local/lib/libg2o_types_slam3d_addons.so;/usr/local/lib/libg2o_viewer.so
+-- eigen3 found: 
+-- eigen3 libs: 
+-- Pangolin found: /usr/local/lib/cmake/Pangolin/../../../include;/usr/include;/usr/include;/usr/local/include/eigen3
+-- Pangolin libs: pangolin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/smartuil/SLAM-FromZeroToHero/code/homework18/cmake-build-debug
